@@ -1,3 +1,13 @@
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
 #navbar{
     display: flex;
     justify-content: space-between;
@@ -33,17 +43,31 @@
 
 .collection-container{
     display: flex;
-    gap: 26px;
-    margin-left: 10px;
+    gap: 22px;
+   justify-content: space-around;
     margin-top: 50px;
 }
 .section-contain{
     margin-top: 80px;
 }
 
+.collection-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 10px;
+  border: none;
+  padding: 10px 23px;
+  cursor: pointer;
+}
 .collection-container p{
  text-align: center;
  font-size: 32px;
+ font-weight: 600;
 }
 
 .btn{
